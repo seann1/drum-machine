@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 292.0, 85.0, 1489.0, 969.0 ],
+		"rect" : [ 2077.0, 139.0, 1388.0, 802.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 654.0, -151.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -56,7 +68,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.0, -17.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1143.0, 8.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "r drum4"
 				}
@@ -69,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.0, -17.0, 52.0, 22.0 ],
+					"patching_rect" : [ 328.0, 19.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "r drum3"
 				}
@@ -82,7 +94,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, -18.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1451.0, -13.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "r drum2"
 				}
@@ -287,7 +299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.0, 17.0, 29.5, 22.0 ],
+					"patching_rect" : [ 328.0, 53.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -313,138 +325,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, 21.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1451.0, 26.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-5",
-					"lockeddragscroll" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 315.0, 686.0, 437.0, 196.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 437.0, 196.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "amxd~",
-							"parameter_shortname" : "amxd~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"annotation_name" : "",
-						"parameter_enable" : 1,
-						"patchername" : "Chorus x2.amxd",
-						"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chorus x2/Chorus x2.amxd"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"name" : "Chorus x2.amxd",
-							"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chorus x2/Chorus x2.amxd",
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"delay_H" : 43.307087,
-									"delay_L" : 433.448822,
-									"depth_H" : 10.0,
-									"depth_L" : 10.0,
-									"fdback_H" : -99.0,
-									"fdback_L" : 82.952759,
-									"gain_H" : 85.039368,
-									"gain_L" : 92.519684,
-									"hi_polarity" : 1.0,
-									"lo_polarity" : 1.0,
-									"mod_L" : 0.0,
-									"mod_rate" : 0.0,
-									"osc_H" : 0.124721,
-									"osc_L" : 1.0,
-									"wet/dry" : 1.574803,
-									"x-over" : 946.456665
-								}
-
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Chorus x2.amxd",
-									"origin" : "Chorus x2.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "Chorus x2.amxd",
-										"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chorus x2/Chorus x2.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"delay_H" : 43.307087,
-												"delay_L" : 433.448822,
-												"depth_H" : 10.0,
-												"depth_L" : 10.0,
-												"fdback_H" : -99.0,
-												"fdback_L" : 82.952759,
-												"gain_H" : 85.039368,
-												"gain_L" : 92.519684,
-												"hi_polarity" : 1.0,
-												"lo_polarity" : 1.0,
-												"mod_L" : 0.0,
-												"mod_rate" : 0.0,
-												"osc_H" : 0.124721,
-												"osc_L" : 1.0,
-												"wet/dry" : 1.574803,
-												"x-over" : 946.456665
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "Chorus x2.amxd",
-										"filename" : "Chorus x2.amxd.maxsnap",
-										"filepath" : "~/Max 7/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "2126f7742f43ef561564666de4b23e3a"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"style" : "",
-					"text" : "amxd~ \"Chorus x2.amxd\"",
-					"varname" : "amxd~",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -455,7 +338,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.0, 17.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1143.0, 42.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -471,7 +354,7 @@
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "subpatcher1.maxpat",
+					"name" : "sn.subpatcher1.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
@@ -555,6 +438,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -591,7 +483,61 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
+					"destination" : [ "obj-30", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 1 ]
@@ -600,7 +546,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -708,24 +654,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -771,7 +699,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
@@ -780,7 +708,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
@@ -789,29 +717,28 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-141" : [ "Glide[3]", "Glide", 0 ],
-			"obj-4::obj-57" : [ "Quality[1]", "Quality", 0 ],
-			"obj-4::obj-74" : [ "Quality", "Quality", 0 ],
-			"obj-4::obj-90" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-4::obj-146" : [ "Quality[3]", "Quality", 0 ],
-			"obj-4::obj-71" : [ "Transp", "Transp", 0 ],
-			"obj-30" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-4::obj-52" : [ "Transp[1]", "Transp", 0 ],
-			"obj-4::obj-101" : [ "Transp[2]", "Transp", 0 ],
-			"obj-4::obj-39" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-4::obj-27" : [ "Glide", "Glide", 0 ],
-			"obj-5" : [ "amxd~", "amxd~", 0 ],
 			"obj-4::obj-100" : [ "Glide[2]", "Glide", 0 ],
-			"obj-4::obj-24" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-4::obj-142" : [ "Transp[3]", "Transp", 0 ],
-			"obj-4::obj-105" : [ "Quality[2]", "Quality", 0 ],
 			"obj-4::obj-49" : [ "Glide[1]", "Glide", 0 ],
+			"obj-30" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-4::obj-71" : [ "Transp", "Transp", 0 ],
+			"obj-4::obj-146" : [ "Quality[3]", "Quality", 0 ],
+			"obj-4::obj-90" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-4::obj-105" : [ "Quality[2]", "Quality", 0 ],
+			"obj-4::obj-74" : [ "Quality", "Quality", 0 ],
+			"obj-4::obj-141" : [ "Glide[3]", "Glide", 0 ],
+			"obj-4::obj-142" : [ "Transp[3]", "Transp", 0 ],
+			"obj-4::obj-101" : [ "Transp[2]", "Transp", 0 ],
+			"obj-4::obj-52" : [ "Transp[1]", "Transp", 0 ],
+			"obj-4::obj-39" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-4::obj-57" : [ "Quality[1]", "Quality", 0 ],
+			"obj-4::obj-24" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-4::obj-27" : [ "Glide", "Glide", 0 ],
 			"obj-4::obj-131" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "subpatcher1.maxpat",
-				"bootpath" : "D:/max-msp-projects/drum-machine-2/subpatchers",
+				"name" : "sn.subpatcher1.maxpat",
+				"bootpath" : "~/max-msp-projects/drum-machine/subpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -824,22 +751,6 @@
 , 			{
 				"name" : "gizmo_loadme.maxpat",
 				"bootpath" : "C74:/help/msp",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chorus x2.amxd.maxsnap",
-				"bootpath" : "~/Max 7/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chorus x2.amxd",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chorus.dcModulator~.maxpat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
